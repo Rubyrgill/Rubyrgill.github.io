@@ -22,7 +22,7 @@ body{
 
 .nav a {
     display: block;
-    color: white;
+    color: white;;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -75,7 +75,29 @@ font-family: 'Orbitron', sans-serif;
     font-size: 100px;
 }
 
+.main-intro {
+    background:white;
+}
+
 h1{
     color:white;
 }
 
+.changeColor {
+    background: white;
+ }
+
+ .main-about-me{
+     margin-top: 10%;
+ }
+ .about-content{
+     padding-top: 20%;
+     margin-left: 20%;
+     margin-right:20%;
+     position: relative;
+ }
+
+ .hide {
+     display: none;
+ }
+ 
