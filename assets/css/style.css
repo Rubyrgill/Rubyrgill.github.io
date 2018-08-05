@@ -1,27 +1,23 @@
-.test {
-    animation-timing-function: ease-in-out;
-}
-
 
 body{
     margin:0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1506402591084-12b14ad3129d?ixlib=rb-0.3.5&s=cc31329db5494a3d7fca4fbd0a89af71&auto=format&fit=crop&w=1351&q=80");
 }
 
-ul {
+.nav-options {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
-li {
-    float: left;
+.nav {
+    float: right;
 }
 
-li a {
+.nav a {
     display: block;
     color: white;
     text-align: center;
@@ -29,7 +25,55 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+nav a:hover {
+    background-color:white;
 }
 
+.fly-in-text{
+    list-style: none;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.fly-in-text li{
+display: inline-block;
+margin-right: 50px;
+color:white;
+font-weight: 300;
+font-size: 30px;
+transition: all 2.5s ease;
+font-family: 'Orbitron', sans-serif;
+}
+
+.fly-in-text li:last-child{
+    margin-right:0;
+}
+
+.fly-in-text.hidden li {
+    opacity: 0;
+}
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(100px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px);}
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(10px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(30px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-300px);}
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(-100px) translateY(10px);}
+.fly-in-text.hidden li:nth-child(8) { transform: translateX(60px) translateY(30px);}
+
+.first-letter{
+    font-size: 100px;
+}
+
+.main-intro{
+    width:100%;
+    height: 100%;
+
+    background-image: url("https://images.unsplash.com/photo-1495080508629-ce0ca7e3a2bd?ixlib=rb-0.3.5&s=a17b9109ad4ea3b3abe2299658ec9ab6&auto=format&fit=crop&w=1351&q=80");
+}
+
+h1{
+    color:white;
+}
