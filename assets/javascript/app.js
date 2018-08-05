@@ -6,6 +6,13 @@ $(function () {
     }, 500);
 });
 
+//Web Dev content addes class hinge on click
+$("#web-dev").on("click", function (e) {
+    $("#web-dev").addClass(" animated hinge")
+});
+
+//On scroll, back changes to white; 
+
 $(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {

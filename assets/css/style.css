@@ -48,10 +48,10 @@ nav a:hover {
 
 .fly-in-text li{
 display: inline-block;
-margin-right: 50px;
+margin-right: 40px;
 color:white;
 font-weight: 300;
-font-size: 30px;
+font-size: 40px;
 transition: all 2.5s ease;
 font-family: 'Orbitron', sans-serif;
 }
@@ -67,22 +67,15 @@ font-family: 'Orbitron', sans-serif;
 .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px);}
 .fly-in-text.hidden li:nth-child(3) { transform: translateX(10px) translateY(-80px);}
 .fly-in-text.hidden li:nth-child(4) { transform: translateX(30px) translateY(200px);}
-.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px);}
-.fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-300px);}
-.fly-in-text.hidden li:nth-child(7) { transform: translateX(-100px) translateY(10px);}
-.fly-in-text.hidden li:nth-child(8) { transform: translateX(60px) translateY(30px);}
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(-300px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(20px) translateY(-300px);}
+.fly-in-text.hidden li:nth-child(8) { transform: translateX(-100px) translateY(100px);}
+.fly-in-text.hidden li:nth-child(9) { transform: translateX(100px) translateY(-300px);}
 
 .first-letter{
     font-size: 100px;
 }
 
-.main-intro {
-    background:white;
-}
-
-h1{
-    color:white;
-}
 
 .changeColor {
     background: white;
@@ -102,3 +95,20 @@ h1{
      display: none;
  }
  
+ #web-dev{
+margin-top:350px;
+margin-left: 20%;
+margin-right:20%;
+border: white solid 2px;
+padding:.5%;
+text-align: center;
+background: black;
+color:white;
+ }
+
+ #web-dev:hover{
+border:solid 2px white;
+background: white;
+color: black;
+transition: 2.5 all ease;
+ }
