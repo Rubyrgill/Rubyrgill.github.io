@@ -76,25 +76,28 @@ font-family: 'Orbitron', sans-serif;
     font-size: 100px;
 }
 
-
+/* background color for scroll*/
 .changeColor {
     background: white;
  }
 
+ /* About me*/
  .main-about-me{
      margin-top: 10%;
  }
  .about-content{
-     padding-top: 20%;
+     padding-top: 5%;
      margin-left: 20%;
      margin-right:20%;
      position: relative;
+     
  }
 
  .hide {
      display: none;
  }
  
+ /* Front-End Developer Sign*/
  #web-dev{
 margin-top:350px;
 margin-left: 20%;
@@ -107,8 +110,95 @@ color:white;
  }
 
  #web-dev:hover{
-border:solid 2px white;
-background: white;
-color: black;
+border:solid 2px #8b0000;
+background: black;
+color: white;
 transition: 2.5 all ease;
  }
+
+  /* FOOTER*/
+
+ .footer {
+    position: relative;
+    margin-top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: black;
+    color:white;
+    text-align: center;
+  }
+
+
+ /*RECENT Projects main page display*/
+
+  .proj-display{
+      position:relative;
+      width:10%;
+  }
+
+  .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+  }
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .proj-display:hover .image{
+    opacity: 0.3;
+  }
+  .proj-display:hover .middle{
+    opacity: 1;
+  }
+
+  .text{
+      background: white;
+      color:black;
+      font-size: 5px;
+      padding:1px;
+  }
+
+
+
+#sub-heading{
+ font-size: 100px;
+ color: #8b0000;
+ padding-bottom: 5%;
+ text-align: center;
+
+}
+
+.sub-heading2{
+    font-size: 20px;
+    padding: 2%;
+    margin-bottom: 2%;
+    color:black;
+    border-bottom: solid 2px #8b0000;
+}
+
+
+.icons{
+    margin-left: 5%;
+    border: solid black 3px;
+    border-radius: 27%;
+    }
+
+
+.icons:hover{
+    border: solid #8b0000 3px;
+border-radius: 23%;
+}
+

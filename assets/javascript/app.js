@@ -24,3 +24,20 @@ $(function () {
         }
     });
 });
+
+//On click, will scroll down
+$("#web-dev").click(function () {
+    $('html,body').animate({
+        scrollTop: $(".about-content").offset().top
+    },
+        'slow');
+});
+
+//On click, will scroll down
+$("#about-me-button").click(function () {
+    $('html,body').animate({
+        scrollTop: $(".about-content").offset().top
+    },
+        'slow');
+});
+
