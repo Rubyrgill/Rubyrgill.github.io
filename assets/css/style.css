@@ -65,8 +65,8 @@ font-family: 'Orbitron', sans-serif;
 }
 .fly-in-text.hidden li:nth-child(1) { transform: translateX(100px) translateY(-200px);}
 .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px);}
-.fly-in-text.hidden li:nth-child(3) { transform: translateX(10px) translateY(-80px);}
-.fly-in-text.hidden li:nth-child(4) { transform: translateX(30px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(100px) translateY(-500px);}
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(-30px) translateY(200px);}
 .fly-in-text.hidden li:nth-child(6) { transform: translateX(-300px) translateY(200px);}
 .fly-in-text.hidden li:nth-child(7) { transform: translateX(20px) translateY(-300px);}
 .fly-in-text.hidden li:nth-child(8) { transform: translateX(-100px) translateY(100px);}
