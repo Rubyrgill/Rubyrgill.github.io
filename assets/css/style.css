@@ -29,6 +29,7 @@ body{
     text-decoration: none;
     border: solid white 1px;
     border-radius: 5%;
+    transition: all .7s ease;
 }
 
 nav a:hover {
@@ -36,6 +37,9 @@ nav a:hover {
     color: black;
 }
 
+
+/*ABOUT ME PAGE*/
+/* _____________________________________________________________*/
 
 /* NAME on main page animated*/
 .fly-in-text{
@@ -75,7 +79,7 @@ font-family: 'Orbitron', sans-serif;
 .first-letter{
     font-size: 100px;
 }
-/* MARGIN AUTO SIZE ON MEDIA QUERIES; 0*/
+
 
 /* background color for scroll*/
 .changeColor {
@@ -131,48 +135,6 @@ transition: 2.5 all ease;
   }
 
 
- /*RECENT Projects main page display*/
-
-  .proj-display{
-      position:relative;
-      width:10%;
-  }
-
-  .image {
-      opacity: 1;
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-  }
-.middle{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%,-50%);
-    text-align: center;
-  }
-
-  .proj-display:hover .image{
-    opacity: 0.3;
-  }
-  .proj-display:hover .middle{
-    opacity: 1;
-  }
-
-  .text{
-      background: white;
-      color:black;
-      font-size: 5px;
-      padding:1px;
-  }
-
-
-
 #sub-heading{
  font-size: 100px;
  color: #8b0000;
@@ -222,6 +184,86 @@ border-radius: 23%;
     background: #8b0000;
     border-radius: 50%;
 }
+
+
+/* PROJECTS PAGE */
+/* -------------------------------------*/
+
+.logo-placeholder {
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+}
+.projects-container{
+
+    background-color: white;
+    margin-top: 1%;
+    padding-top: 3%;
+    align-content: center;
+    padding-left: 7%;
+    /* margin-left: 5%;
+    margin-right:5%; */
+    height: 1000px;
+}
+
+/*RECENT Projects main page display*/
+/* 
+.recent-projects{
+    background: yellow;
+    padding: 10px;
+    margin: 2%;
+} */
+.proj-display{
+    border: #8b0000 4px solid;
+    border-radius: 5%;
+    position: relative;
+    width:300px;
+    height: 200px;
+    float: left;
+    padding: 5px;
+    margin: 2%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.proj-display:hover .image{
+  opacity: 0.3;
+}
+.proj-display:hover .middle{
+  opacity: 1;
+}
+
+.text{
+    background: white;
+    color:black;
+    font-size: 50px;
+    padding:1px;
+}
+
+
+
+
+
+
+
 
 /* The Modal (background) */
 .modal {
@@ -273,6 +315,7 @@ border-radius: 23%;
 }
 
 .close:hover,
+
 .close:focus {
     color: #000;
     text-decoration: none;
@@ -374,4 +417,20 @@ border-radius: 23%;
      .main-about-me{
         margin-top: 50%;
     }
+}
+
+
+/*CONTACT PAGE*/
+/* _____________________________________________________________*/
+
+
+.main-contact{
+    padding-top:5%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
