@@ -202,18 +202,10 @@ border-radius: 23%;
     padding-top: 3%;
     align-content: center;
     padding-left: 7%;
-    /* margin-left: 5%;
-    margin-right:5%; */
     height: 1000px;
 }
 
-/*RECENT Projects main page display*/
-/*
-.recent-projects{
-    background: yellow;
-    padding: 10px;
-    margin: 2%;
-} */
+
 .proj-display{
     border: #8b0000 4px solid;
     border-radius: 5%;
