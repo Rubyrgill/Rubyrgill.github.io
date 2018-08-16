@@ -1,2 +1,2 @@
 # portfolio
-Profile using Javascript, HTML &amp; CSS
+Profile using JQuery HTML &amp; CSS
