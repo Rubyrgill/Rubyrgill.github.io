@@ -244,14 +244,26 @@ border-radius: 23%;
 }
 
 .text{
-    background: white;
+    background: none;
     color:black;
-    font-size: 50px;
-    padding:1px;
+    padding: 2%;
+    font-size: 15px;
 }
 
+.project-title{
+ font-size: 20px;
+}
 
+.repo-btn{
+    background-color: #8b0000;
+    border-radius: 50%;
+    transition: all .5s ease;
+    margin: 10px;
+}
 
+.repo-btn:hover{
+background-color: white;
+}
 
 
 
