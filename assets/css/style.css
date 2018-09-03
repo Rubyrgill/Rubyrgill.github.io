@@ -124,7 +124,7 @@ transition: 2.5 all ease;
 
  .footer {
     position: relative;
-    margin-top: 10%;
+    margin-top: 1%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -142,6 +142,7 @@ transition: 2.5 all ease;
  text-align: center;
 
 }
+
 
 .sub-heading2{
     font-size: 20px;
@@ -188,12 +189,26 @@ border-radius: 23%;
 
 /* PROJECTS PAGE */
 /* -------------------------------------*/
-
+#sub-heading-proj{
+    font-size: 100px;
+    color: #8b0000;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+   }
+   
 .logo-placeholder {
-    font-size: 30px;
-    color: white;
-    padding: 10px;
+    width: 6%;
+    height: 11%;
+    margin-left: 2%;
+    border-radius: 30%;
     position: absolute;
+    transition: 2.5 all ease;
+    border: black solid 3px;
+}
+
+.logo-placeholder:hover {
+    border: #8b0000  solid 4px;
 }
 .projects-container{
 
@@ -211,7 +226,7 @@ border-radius: 23%;
     border-radius: 5%;
     position: relative;
     width:300px;
-    height: 200px;
+    height: 185px;
     float: left;
     padding: 5px;
     margin: 2%;
@@ -237,7 +252,7 @@ border-radius: 23%;
 }
 
 .proj-display:hover .image{
-  opacity: 0.3;
+  opacity: 0.1;
 }
 .proj-display:hover .middle{
   opacity: 1;
@@ -264,9 +279,6 @@ border-radius: 23%;
 .repo-btn:hover{
 background-color: white;
 }
-
-
-
 
 
 /* The Modal (background) */
@@ -431,10 +443,10 @@ background-color: white;
 .main-contact{
     padding-top:5%;
     padding-bottom: 5%;
-    padding-left: 1%;
-    padding-right: 1%;
+   text-align: center;
     background-color: white;
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 10%;
 }
