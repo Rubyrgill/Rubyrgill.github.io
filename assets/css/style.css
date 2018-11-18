@@ -120,6 +120,10 @@ color: white;
 transition: 2.5 all ease;
  }
 
+ #emailheading{
+     font-size: 50px;
+ }
+
   /* FOOTER*/
 
  .footer {
@@ -174,8 +178,8 @@ border-radius: 23%;
 }
 
 .link-icon{
-    width: 50px;
-    height:50px;
+    width: 5%;
+    height:5%;
     position: relative;
     padding: 5%;
     transition: all 0.3s ease-in;
@@ -281,7 +285,7 @@ background-color: white;
 }
 
 
-/* The Modal (background) */
+/* IN PROGRESS: The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -384,8 +388,7 @@ background-color: white;
 
 @media only screen and (max-width: 800px) {
     .fly-in-text li {
-        margin: auto;
-        background-color: #8b0000;
+        margin: auto;;
     }
 
     #web-dev{
@@ -399,9 +402,27 @@ background-color: white;
 
 @media only screen and (max-width: 600px) {
     .fly-in-text li {
-        font-size: 40px;
+        font-size: 35px;
         margin: auto;
-        background-color: #8b0000;
+    }
+
+    #web-dev{
+        font-size: 10px;
+    }
+
+    .nav {
+       align-content: center;
+       margin-right: 10%;
+    }
+    .main-about-me{
+        margin-top: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .fly-in-text li {
+        font-size: 30px;
+        margin: auto;
     }
 
     #web-dev{
@@ -420,7 +441,6 @@ background-color: white;
     .fly-in-text li {
         font-size: 25px;
         margin: auto;
-        background-color: blue;
     }
     #web-dev{
         font-size: 10px;
@@ -454,3 +474,4 @@ background-color: white;
 /* .contact-form input{
     border: yellow solid 5px;
 } */
+
