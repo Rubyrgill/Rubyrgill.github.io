@@ -15,168 +15,240 @@
     <!--JQuery Sheet-->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/images/web.png" />
+    <link rel="shortcut icon" href="./assets/images/rubylogo.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Domine|Lobster" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container">
-
-        <!-- Nav Bar -->
-        <div class="main-nav-bar">
-            <nav class="nav-bar">
-                <ol class=" nav-options ">
-                    <li class="nav ">
-                        <a href="./contact.html ">Contact</a>
-                    </li>
-                    <li class="nav ">
-                        <a href="./projects.html ">Projects</a>
-                    </li>
-                    <li class="nav" id="about-me-button">
-                        <a href="#">About Me</a>
-                    </li>
-                </ol>
-            </nav>
+        <!--Nav Bar-->
+        <div class="navbar">
+            <img id="logo" src="./assets/images/rubylogo.png" width="70px">
+            <a id="contact-dev" href="#">Contact</a>
+            <a id="desig-dev" href="#">Designs</a>
+            <a id="proj-dev" href="#">Projects</a>
+            <a id="web-dev" href="#">About Me</a>
         </div>
 
-        <!-- Name/Heading-->
-        <div class="main-1">
-            <div class="main-intro">
-                <ul class="fly-in-text hidden">
-                    <li class="first-letter ">R</li>
-                    <li>U</li>
-                    <li>B</li>
-                    <li>Y</li>
-                    <li></li>
-                    <li class="first-letter ">G</li>
-                    <li>I</li>
-                    <li>L</li>
-                    <li>L</li>
-                </ul>
+        <!--Main Parallax-->
 
-                <!-- Title -->
-                <div>
-                    <p id="web-dev" style="cursor:pointer">WEB DEVELOPER </p>
-                </div>
-            </div>
+        <div class="parallax" style="height:700px">
+            <div>
+                <div id="my-name">
+                    <!-- <img src="assets/images/rubylogo.png" width="100px"> -->
+                    <div class="background-main">
+                        <h1>Ruby Gill</h1>
 
-        </div>
-
-
-        <!-- <h1 id="myName " class="animated shake ">Hello</h1> -->
-
-
-        <!-- Main about me content -->
-        <div class="main-about-me ">
-            <div class="about-content ">
-                <h1 id="sub-heading">Hello!</h1>
-                <p> I am a Frontend Web Developer with a passion for problem-solving and the drive to learn, create
-                    and
-                    deliver.
-                </p>
-                </br>
-                <p>My background in business marketing allows me to have a better understanding in developing user
-                    engaging
-                    applications and visually appealing designs within every project that I create. My current role as
-                    a
-                    Marketing Coordinator has provided me the opportunity to generate in-depth digital marketing
-                    processes
-                    and advance my design skills. </p>
-                </br>
-                <p>At University of Toronto Full Stack Web Development Bootcamp, I have built extensive skills and best
-                    practices
-                    in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Firebase, Node JS and MySQL.</p>
-                </br>
-                <p>Ultimately, I enjoy having the opportunity to create easier, faster and better alternatives to
-                    everyday
-                    applications.
-
-                </p>
-                </br>
-                <p>Most importantly, I am always interested in learning something new. So, if you have any questions,
-                    tips
-                    or something to share I would love to connect!
-                </p>
-                <!-- Links to social media, github -->
-                <div class="social-links">
-                    <!--  github -->
-                    <a href="https://github.com/Rubyrgill" target="_blank">
-                        <img class="link-icon" src="https://cdn2.iconfinder.com/data/icons/social-hand-drawn-icons/64/social_39-512.png">
-                    </a>
-                    <!--  LinkedIn -->
-                    <a href="https://www.linkedin.com/in/rubyrgill/" target="_blank">
-                        <img class="link-icon" src="https://cdn2.iconfinder.com/data/icons/social-hand-drawn-icons/64/social_48-512.png">
-                    </a>
-                    <!--  Instagram -->
-                    <a href="https://www.instagram.com/rubyrgill/" target="_blank">
-                        <img class="link-icon" src="https://cdn2.iconfinder.com/data/icons/social-hand-drawn-icons/64/social_50-512.png">
-                    </a>
-                    <!--  Email -->
-                    <a href="mailto:rubyrgill@hotmail.com">
-                        <img class="link-icon " src="https://cdn2.iconfinder.com/data/icons/social-hand-drawn-icons/64/social_43-512.png ">
-                    </a>
-                </div>
-
-                <!--Additional skills-->
-                <!-- <div class="programs">
-                    <h2 class="sub-heading2">Skills:</h2>
-                    <img class="icons" src="https://png.icons8.com/metro/1600/html.png" width="10%" height="10%">
-                    <img class="icons" src="https://png.icons8.com/metro/1600/css.png" width="10%" height="10%">
-                    <img class="icons" src="https://png.icons8.com/metro/1600/js.png" width="10%" height="10%">
-                </div> -->
-
-                <!-- PROJECTS PAGE...move -->
-                <!-- <div class=" recent-projects ">
-                    <div class="proj-display ">
-                        <img src="assets/images/placeholder-profile.jpeg " alt="placeholder " class="image " style="width:100% ">
-                        <div class="middle ">
-                            <div class="text ">
-                                Coming Soon
-                            </div>
+                        <hr>
+                        <p class="desc-text">Full Stack Developer</p>
+                        <div class="btn-div">
+                            <a class="main-btn" id="app-btn" href="#">Applications</a>
+                            <a class="main-btn" id="ani-btn" href="#">Animations</a>
                         </div>
                     </div>
-                </div> -->
 
-
+                </div>
             </div>
 
         </div>
 
+        <!--Content Body-->
 
+        <div class="about-content" style="
+            height:800px;background-color:#efefef;font-size:36px">
+            <div class="main-text">
+                <h2 class="animate">Hello!</h2>
+                <hr>
+                <p>I am a Frontend Web Developer with a passion for problem-solving and the drive to learn, create and
+                    deliver.</p>
 
+                <p>My background in business marketing allows me to have a better understanding in developing user
+                    engaging applications and visually appealing designs within every project that I create. My current
+                    role as a Marketing Coordinator has provided me the opportunity to generate in-depth digital
+                    marketing processes and advance my design skills.</p>
 
-        <!-- Trigger/Open The Modal -->
-        <!-- <button id="myBtn">Open Modal</button> -->
+                <p>At University of Toronto Full Stack Web Development Bootcamp, I have built extensive skills and best
+                    practices in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Firebase, Node.Js, React.Js, MongoDB and
+                    MySQL.</p>
+                <p>Ultimately, I enjoy having the opportunity to create easier, faster and better alternatives to
+                    everyday applications.</p>
 
-        <!-- The Modal -->
-        <!-- <div id="myModal" class="modal"> -->
+                <p> Most importantly, I am always interested in learning something new. So, if you have any questions,
+                    tips
+                    or something to share I would love to connect!</p>
 
-        <!-- Modal content -->
-        <!-- <div class="modal-content">
-                <div class="modal-header">
-                    <span class="close">&times;</span>
-                    <h2>Modal Header</h2>
+                <h4 class="email"> rubygillr@gmail.com</h4>
+                <hr>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rubyrgill/" target="_blank">
+                        <img class="link-icon" src="./assets/images/iconfinder_linkedin_circle_gray_107149.png" width="50px">
+                    </a>
+                    <a href="https://github.com/Rubyrgill" target="_blank">
+                        <img class="link-icon" src="./assets/images/iconfinder_github_circle_gray_107139.png" width="50px">
+                    </a>
+                    <a href="https://www.instagram.com/rubyrgill/" target="_blank">
+                        <img class="link-icon" src="./assets/images/iconfinder_instagram_circle_gray_107138.png" width="50px">
+                    </a>
+                    <a href="mailto:rubyrgill@hotmail.com">
+                        <img class="link-icon " src="./assets/images/iconfinder_google_circle_gray_107151.png" width="50px">
+                    </a>
                 </div>
-                <div class="modal-body">
-                    <p>Some text in the Modal Body</p>
-                    <p>Some other text...</p>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Projects/Designs-->
+        <div class="parallax" style="height:700px">
+            <div class="projects">
+                <h2 class="animate">Applications</h2>
+                <hr>
+                <div>
+                    <div class="card">
+                        <img src="./assets/images/devbuddyscreen.png" alt="Denim Jeans" style="width:100%">
+                        <h2 style="font-size: 30px;">Dev Buddy</h2>
+                        <hr>
+                        <p class="card-text">Developer Resource Site</p>
+                        <p class="card-text">Using Javascript, React.Js, MongoDB, CSS, BootStrap, Express.Js, Node.Js.
+                            Axios</p>
+                        <a href="https://github.com/Rubyrgill/devbuddy" target="_blank"><button>Github</button></a>
+                        <a href="https://devbuddyuoft.herokuapp.com/" target="_blank"><button>Live</button></a>
+                    </div>
+
                 </div>
-                <div class="modal-footer">
-                    <h3>Modal Footer</h3>
+                <div>
+                    <div class="card">
+                        <img src="./assets/images/eatsmart.png" alt="Denim Jeans" style="width:100%">
+                        <h2 style="font-size: 30px;">Eat Smart</h2>
+                        <hr>
+                        <p class="card-text">Recipe Planner App</p>
+                        <p class="card-text">Using Javascript, JQuery, Firebase, CSS, Materialize.
+                            Axios</p>
+                        <a href="https://github.com/Rubyrgill/EatSmart" target="_blank"><button>Github</button></a>
+                        <a href="https://rubygill.ca/EatSmart/" target="_blank"><button>Live</button></a>
+                    </div>
+
                 </div>
-            </div> -->
+                <div>
+                    <div class="card">
+                        <img src="./assets/images/giphy.png" alt="Denim Jeans" style="width:100%">
+                        <h2 style="font-size: 30px;">Giphy Search</h2>
+                        <hr>
+                        <p class="card-text">Giphy API App</p>
+                        <p class="card-text">Using Javascript, JQuery, HTML, CSS, Giphy API.
+                        </p>
+                        <a href="https://github.com/Rubyrgill/GifTastic-Web-App" target="_blank"><button>Github</button></a>
+                        <a href="https://rubygill.ca/GifTastic-Web-App/" target="_blank"><button>Live</button></a>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="card">
+                        <img src="./assets/images/hangman.png" alt="Denim Jeans" style="width:100%">
+                        <h2 style="font-size: 30px;">Word Search Game</h2>
+                        <hr>
+                        <p class="card-text">A Hangman Application</p>
+                        <p class="card-text">Using Javascript, HTML, CSS.</p>
+                        <a href="https://github.com/Rubyrgill/Word-Guess-Game" target="_blank"><button>Github</button></a>
+                        <a href="https://rubygill.ca/Word-Guess-Game/" target="_blank"><button>Live</button></a>
+                    </div>
+
+                </div>
 
 
+                ...
 
 
+            </div>
+        </div>
 
-        <div class="footer ">Copyright &copy; 2018
-            <br>
+
+        <div class="about-content" style="
+        height:800px;background-color:#efefef;font-size:36px">
+            <div class="projects-2">
+                <h2 class="animate">Animations</h2>
+                <p class="animate">Video animations and graphics with Adobe Creative Suite</p>
+                <hr>
+                <video width="400" autoplay loop muted>
+                    <source src="./assets/images/sabrinaxmakeup.mp4" type="video/mp4">
+
+                    Your browser does not support HTML5 video.
+                </video>
+                <video width="400" autoplay loop muted>
+                    <source src="./assets/images/TheKitchenChef.mp4" type="video/mp4">
+
+                    Your browser does not support HTML5 video.
+                </video>
+                <video width="400" autoplay loop muted>
+                    <source src="./assets/images/Dev.mp4" type="video/mp4">
+
+                    Your browser does not support HTML5 video.
+                </video>
+                <video width="400" autoplay loop muted>
+                    <source src="./assets/images/mymakeupcover.mp4" type="video/mp4">
+
+                    Your browser does not support HTML5 video.
+                </video>
+                <video width="400" autoplay loop muted>
+                    <source src="./assets/images/Comp 1_5.mp4" type="video/mp4">
+
+                    Your browser does not support HTML5 video.
+                </video>
+                <video width="400" autoplay loop muted>
+                    <source src="./assets/images/mayvonic.mp4" type="video/mp4">
+
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+    <!--contact-->
+    <div class="parallax" style="height:700px">
+        <div class="contact">
+            <h2 class="animate ">Contact</h2>
+            <hr>
+
+
+            <div class="contact-link">
+
+                <div class="social-links">
+                    <h3 class="contact-details">Email: rubygillr@gmail.com</h3>
+                    <h3 class="contact-details">Phone: (647) 871 - 1326</h3>
+                    <a href="https://www.linkedin.com/in/rubyrgill/" target="_blank">
+                        <img class="link-icon" src="./assets/images/iconfinder_linkedin_circle_gray_107149.png" width="50px">
+                    </a>
+                    <a href="https://github.com/Rubyrgill" target="_blank">
+                        <img class="link-icon" src="./assets/images/iconfinder_github_circle_gray_107139.png" width="50px">
+                    </a>
+                    <a href="https://www.instagram.com/rubyrgill/" target="_blank">
+                        <img class="link-icon" src="./assets/images/iconfinder_instagram_circle_gray_107138.png" width="50px">
+                    </a>
+                    <a href="mailto:rubyrgill@hotmail.com">
+                        <img class="link-icon " src="./assets/images/iconfinder_google_circle_gray_107151.png" width="50px">
+                    </a>
+                </div>
+
+            </div>
+            ...
 
 
         </div>
+    </div>
+
+
+
+
+    <div class="footer ">Copyright &copy; 2018
+        <br>
+    </div>
 
 
 

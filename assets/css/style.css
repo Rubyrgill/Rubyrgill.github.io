@@ -8,470 +8,328 @@ body{
 }
 
 
-/* Top Navigation Bar*/
-.nav-options {
-    list-style-type: none;
-    overflow: hidden;
+/*  */
+
+
+/* _________________________________________________________________________________*/
+
+/* CSS */
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #f8f8f8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 17px 34px 119px -9px rgba(122,105,113,1);
+  -moz-box-shadow: 17px 34px 119px -9px rgba(122,105,113,1);
+  box-shadow: 17px 34px 119px -9px rgba(122,105,113,1);
 }
 
-.nav {
-    display: inline-block;
-    padding-top: 1%;
-    padding-right: 1%;
-    float: right;
+.navbar a {
+  float: right;
+  display: block;
+  color: #845560;
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 1%;
+  margin-right: 2%;
+  border: 1px solid #845560;
+  border-radius: 10px;
+  transition: all .5s ease 0s;
+  font-family: 'Domine', serif;
+  
 }
 
-.nav a {
-    display: block;
-    color: white;;
-    text-align: center;
-    padding: 14px 16px;
+.navbar a:hover {
+  background: #cfcec0;
+  color: #f8f8f8;
+
+}
+
+/* .main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+ } */
+
+ body, html {
+    height: 100%;
+}
+
+.parallax {
+
+    background-image: url('https://images.unsplash.com/photo-1523958940417-b5818e64cf16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1318&q=80');
+    /* Full height */
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.par-body{
+    -webkit-box-shadow: 10px -23px 119px -9px rgba(122,105,113,1);
+-moz-box-shadow: 10px -23px 119px -9px rgba(122,105,113,1);
+box-shadow: 10px -23px 119px -9px rgba(122,105,113,1);
+}
+
+#logo{
+    margin-left: 2%;
+}
+
+#my-name{
+    padding-top: 200px;
+margin-left:25%;
+margin-right:25%;
+}
+
+.desc-text{
+    font-size: 30px;
+   margin-left: 20px;
+ padding-left: 150px;
+ padding-top: 10px;
+}
+.background-main{
+    opacity: 20%;
+    background: #f8f8f8;
+    background: linear-gradient(-45deg, #845560, #cfcec0, #f8f8f8, #f0cd92);
+    border-radius: 25px;
+	/* background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite; */
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,255,255,0));
+    background-repeat: repeat-x;
+}
+
+h1{
+    padding-left: 20px;
+    font-size: 160px;
+   color: #845560;
+    font-family: 'Lobster', cursive;
+}
+
+
+/* 
+Animation - Gradient background
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+} */
+
+.main-btn{
+    
+    font-size: 25px;
+    padding: 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 4%;
+    border: solid 2px #845560;
     text-decoration: none;
-    border: solid white 1px;
-    border-radius: 5%;
-    transition: all .7s ease;
+    background: #cfcec0;
+color: #845560;
+border-radius: 20px;
 }
 
-nav a:hover {
-    background-color:white;
-    color: black;
+.main-btn:hover{
+background:#845560;
+color: #f8f8f8;
+transition: all .5s ease 0s;
+margin-top: 20px;
 }
 
 
-/*ABOUT ME PAGE*/
-/* _____________________________________________________________*/
+.btn-div{
+    margin-top: 50px;
+    font-family: 'Domine', serif;
 
-/* NAME on main page animated*/
-.fly-in-text{
-    list-style: none;
-    position: absolute;
-    left:50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
 }
 
-.fly-in-text li{
-display: inline-block;
-margin-right: 30px;
-color:white;
-font-weight: 300;
-font-size: 55px;
-transition: all 2.5s ease;
-font-family: 'Orbitron', sans-serif;
+.main-text{
+    margin-left: 25%;
+    margin-right: 25%;
+   padding-top: 6%;
 }
 
-.fly-in-text li:last-child{
-    margin-right:0;
-}
-
-.fly-in-text.hidden li {
-    opacity: 0;
-}
-.fly-in-text.hidden li:nth-child(1) { transform: translateX(100px) translateY(-200px);}
-.fly-in-text.hidden li:nth-child(2) { transform: translateX(-200px) translateY(100px);}
-.fly-in-text.hidden li:nth-child(3) { transform: translateX(100px) translateY(-500px);}
-.fly-in-text.hidden li:nth-child(4) { transform: translateX(-30px) translateY(200px);}
-.fly-in-text.hidden li:nth-child(6) { transform: translateX(-300px) translateY(200px);}
-.fly-in-text.hidden li:nth-child(7) { transform: translateX(20px) translateY(-300px);}
-.fly-in-text.hidden li:nth-child(8) { transform: translateX(-100px) translateY(100px);}
-.fly-in-text.hidden li:nth-child(9) { transform: translateX(100px) translateY(-300px);}
-
-.first-letter{
+h2{
     font-size: 100px;
+    /* padding-left: 30%; */
+   color: #845560;
+    font-family: 'Lobster', cursive;
+    align-content: center;
 }
 
-
-/* background color for scroll*/
-.changeColor {
-    background: white;
- }
-
- /* About me*/
- .main-about-me{
-     margin-top: 20%;
- }
- .about-content{
-     padding-top: 5%;
-     margin-left: 20%;
-     margin-right:20%;
-     position: relative;  
- }
-
- .hide {
-     display: none;
- }
- 
- /* Front-End Developer Sign*/
- #web-dev{
-margin-top:350px;
-margin-left: 20%;
-margin-right:20%;
-border: white solid 2px;
-padding:.5%;
-text-align: center;
-background: black;
-color:white;
- }
-
- #web-dev:hover{
-border:solid 2px #8b0000;
-background: black;
-color: white;
-transition: 2.5 all ease;
- }
-
- #emailheading{
-     font-size: 50px;
- }
-
-  /* FOOTER*/
-
- .footer {
-    position: relative;
-    margin-top: 1%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: black;
-    color:white;
-    text-align: center;
-  }
-
-
-#sub-heading{
- font-size: 100px;
- color: #8b0000;
- padding-bottom: 5%;
- text-align: center;
-
-}
-
-
-.sub-heading2{
-    font-size: 20px;
-    padding: 2%;
-    margin-bottom: 2%;
-    color:black;
-    border-bottom: solid 2px #8b0000;
-}
-
-  /* skills icons*/
-
-.icons{
-    margin-left: 5%;
-    border: solid black 3px;
-    border-radius: 27%;
-    }
-
-
-.icons:hover{
-    border: solid #8b0000 3px;
-border-radius: 23%;
+p{
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: 'Domine', serif;
 }
 
 .social-links{
-    padding-top: 5%;
-     margin-left: 20%;
-     margin-right:20%;
-     position: relative; 
+    /* padding-top: 20px; */
+    margin-left: 80px;
 }
-
 .link-icon{
-    width: 5%;
-    height:5%;
-    position: relative;
-    padding: 5%;
-    transition: all 0.3s ease-in;
-}
-
-.link-icon:hover{
-    background: #8b0000;
-    border-radius: 50%;
-}
-
-
-/* PROJECTS PAGE */
-/* -------------------------------------*/
-#sub-heading-proj{
-    font-size: 100px;
-    color: #8b0000;
-    padding-bottom: 5%;
-    text-align: center;
-    font-family: 'Cabin Sketch', cursive;
-   }
-   
-.logo-placeholder {
-    width: 6%;
-    height: 11%;
-    margin-left: 2%;
-    border-radius: 30%;
-    position: absolute;
-    transition: 2.5 all ease;
-    border: black solid 3px;
-}
-
-.logo-placeholder:hover {
-    border: #8b0000  solid 4px;
-}
-.projects-container{
-
-    background-color: white;
-    margin-top: 1%;
-    padding-top: 3%;
-    align-content: center;
-    padding-left: 7%;
-    height: 1000px;
-}
-
-
-.proj-display{
-    border: #8b0000 4px solid;
-    border-radius: 5%;
-    position: relative;
-    width:300px;
-    height: 185px;
-    float: left;
-    padding: 5px;
-    margin: 2%;
-}
-
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-.middle{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%,-50%);
-  text-align: center;
-}
-
-.proj-display:hover .image{
-  opacity: 0.1;
-}
-.proj-display:hover .middle{
-  opacity: 1;
-}
-
-.text{
-    background: none;
-    color:black;
-    padding: 2%;
-    font-size: 15px;
-}
-
-.project-title{
- font-size: 20px;
-}
-
-.repo-btn{
-    background-color: #8b0000;
-    border-radius: 50%;
-    transition: all .5s ease;
-    margin: 10px;
-}
-
-.repo-btn:hover{
-background-color: white;
-}
-
-
-/* IN PROGRESS: The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-/* The Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-
-.close:focus {
-    color: #000;
+    margin: 30px;
     text-decoration: none;
+    transition: all .5s ease 0s;
+}
+.link-icon:hover{
+    background: #845560;
+    border-radius: 50%;
+}
+
+h4{
+    /* padding-top: 5%; */
+    margin-top: 30px;
+    font-size: 20px;
+    color: #845560;
+    /* margin-left: 35%; */
+    text-align: center;
+    padding: 2px;
+  
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 230px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin: 20px;
+    background: #f8f8f8;
+    padding-bottom: 5vh;
+   
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color:#cfcec0;
+    border-radius: 25vh;
+    text-align: center;
     cursor: pointer;
-}
+    width: 30%;
+    font-size: 18px;
+  
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+    background: #845560;
+  }
 
-.modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
+  .projects{
+      margin-left: 7%;
+      margin-right: 7%;
+      padding-top: 8%;
+  }
+  .projects-2{
+    padding-top: 5%;
+   padding-left: 1%;
+    margin-left: 1%;
+  }
 
-.modal-body {padding: 2px 16px;}
+  .animate{
+     text-align: center;
 
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
+  }
 
-  /* MEDIA QUERIES*/
-
-@media only screen and (max-width: 1300px) {
-    .fly-in-text li {
-        font-size: 65px;
-        margin: 10px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .fly-in-text li {
-        font-size: 40px;
-        margin: 10px;
-    }
-}
-
-
-@media only screen and (max-width: 1100px) {
-    .fly-in-text li {
-        margin: 10px;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .fly-in-text li {
-        margin: auto;
-    }
-}
+ h5{
+     color: #845560;
+     font-weight: 40px;
+     text-decoration: none;
+ }
 
 
-@media only screen and (max-width: 800px) {
-    .fly-in-text li {
-        margin: auto;;
-    }
+  .card-text{
+      color: black;
+      font-size: 15px;
+      padding-bottom: 2vh;
+  }
 
-    #web-dev{
-        font-size: 10px;
-    }
+  .email{
+      background: #f8f8f8;
+      transition: all 1.5s ease;
+  }
 
-    .nav {
-       align-content: center;
-    }
-}
+ .email:hover{
+background: #845560;
+color: #f8f8f8;
+font-weight: 200px;
+border-radius: 30px;
 
-@media only screen and (max-width: 600px) {
-    .fly-in-text li {
-        font-size: 35px;
-        margin: auto;
-    }
+ }
 
-    #web-dev{
-        font-size: 10px;
-    }
+ .contact{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 8%;
+ }
 
-    .nav {
-       align-content: center;
-       margin-right: 10%;
-    }
-    .main-about-me{
-        margin-top: 50%;
-    }
-}
+ .contact-link{
+     background-image: url("../images/notebook.jpg");
+    /* background: white; */
+    border-radius: 30px;
+    
+ }
 
-@media only screen and (max-width: 500px) {
-    .fly-in-text li {
-        font-size: 30px;
-        margin: auto;
-    }
+ .contact-details{
 
-    #web-dev{
-        font-size: 10px;
-    }
-
-    .nav {
-       align-content: center;
-    }
-    .main-about-me{
-        margin-top: 50%;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .fly-in-text li {
-        font-size: 25px;
-        margin: auto;
-    }
-    #web-dev{
-        font-size: 10px;
-    }
-    .nav {
-        align-content: center;
-     }
-
-
-     .main-about-me{
-        margin-top: 50%;
-    }
-}
-
-
-/*CONTACT PAGE*/
-/* _____________________________________________________________*/
-
-
-.main-contact{
-    padding-top:5%;
-    padding-bottom: 5%;
-   text-align: center;
-    background-color: white;
-    margin-top: 8%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 10%;
-}
-
-/* .contact-form input{
-    border: yellow solid 5px;
-} */
-
+     font-size: 28px;
+     padding: 20px;
+  text-align: initial;
+  color: #845560;
+  font-family: 'Domine', serif;
+ }
