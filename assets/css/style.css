@@ -340,7 +340,7 @@ border-radius: 30px;
 
  @media only screen and (max-width: 400px) {
     body {
-      background-color: green;
+      background-color:#f8f8f8;
     }
     .navbar a {
         display:none;
